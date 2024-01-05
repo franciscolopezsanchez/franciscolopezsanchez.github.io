@@ -57,20 +57,32 @@ content:
         quote: >
           Ipswich (UK) - Barcelona (Spain)
         description: | # this will include new lines to allow paragraphs
-          - Led a team of 5 engineers and 4 QAs, concurrently serving as a Scrum Master. 
+          - Led a team of 5 engineers and 4 QAs, concurrently serving as a Scrum Master.
           - Responsibilities encompassed <mark>coaching</mark> new team members, overseeing career development, conducting performance reviews and actively participating in recruitment and <mark>interviews</mark>.
+      - layout: right
+        title: Derivco UK
+        sub_title: Sofware Engineer
+        caption: May 2013 - January 2015
+        quote: >
+          Ipswich (UK)
+        description: |
+          - Worked mainly as a Front-end developer, meticulously crafting amazing <mark>user interfaces</mark> with a commitment to achieving <mark>pixel-perfect</mark> precision.
 
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-left
+        title: TuPistaLibre
+        description: |
+          - Marketplace for padel clubs to book courts and for players to find matches.
+          -
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+        title: Computer Science Degree
+        sub_title: University of Seville
+        caption: 2006 - 2012
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
