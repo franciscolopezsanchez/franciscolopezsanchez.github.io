@@ -9,12 +9,12 @@ version: 2
 name: Francisco Lopez Sanchez
 title: Sofware Engineer
 email: francisco.lopsan@gmail.com
-email_title: 'mail'
+email_title: "mail"
 
 # Dark Mode (true/false/never)
 darkmode: false
 
-github_username:  franciscolopezsanchez
+github_username: franciscolopezsanchez
 
 # Additional icon links
 # additional_links:
@@ -35,47 +35,31 @@ gtag: "G-JD1532W65J"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I'm a passionate software engineer dedicated to crafting enchanting user experiences. With a focus on pixel perfection and user delight, I communicate fluently, collaborating seamlessly in the symphony of coding. A perpetual learner and tech explorer, constantly venturing into new horizons in technology.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: femtasy
+        sub_title: Full-Stack Engineer
+        caption: January 2020 - August 2023
         quote: >
-          Short description of the company (optional)
+          remote - Germany
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - Led the design and execution of an audio recommendation system utilizing <mark>AWS Personalize</mark>.
+          - Collaborated in the design and implementation of a system utilizing <mark>Strapi</mark> and <mark>Next.js</mark>, enabling the brand team to independently craft dynamic marketing pages. This approach granted them the autonomy to construct pages with essential components without requiring developer assistance.
+      - layout: right
+        title: Derivco UK
+        sub_title: Team Lead
+        caption: January 2015 - July 2019
+        quote: >
+          Ipswich (UK) - Barcelona (Spain)
+        description: | # this will include new lines to allow paragraphs
+          - Led a team of 5 engineers and 4 QAs, concurrently serving as a Scrum Master. 
+          - Responsibilities encompassed <mark>coaching</mark> new team members, overseeing career development, conducting performance reviews and actively participating in recruitment and <mark>interviews</mark>.
+
   - title: Education
     layout: list
     content:
@@ -107,17 +91,18 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
