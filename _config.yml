@@ -41,49 +41,51 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: top-let
+      - layout: left
         title: femtasy
         sub_title: Full-Stack Engineer
         caption: January 2020 - August 2023
         quote: >
           remote - Germany
         description: | # this will include new lines to allow paragraphs
-          - Led the design and execution of an audio recommendation system utilizing <mark>AWS Personalize</mark>.
-          - Collaborated in the design and implementation of a system utilizing <mark>Strapi</mark> and <mark>Next.js</mark>, enabling brand team to independently craft dynamic marketing pages. This approach granted them the autonomy to construct pages with essential components without requiring developer assistance.
-      - layout: top-left
+          Led the design and execution of an audio recommendation system utilizing <mark>AWS Personalize</mark>.
+
+          Collaborated in the design and implementation of a system utilizing <mark>Strapi</mark> and <mark>Next.js</mark>, enabling brand team to independently craft dynamic marketing pages. This approach granted them the autonomy to construct pages with essential components without requiring developer assistance.
+      - layout: left
         title: Derivco UK
         sub_title: Team Lead
         caption: January 2015 - July 2019
         quote: >
           Ipswich (UK) - Barcelona (Spain)
         description: | # this will include new lines to allow paragraphs
-          - Led a team of 5 engineers and 4 QAs, concurrently serving as a Scrum Master.
-          - Responsibilities encompassed <mark>coaching</mark> new team members, overseeing career development, conducting performance reviews and actively participating in recruitment and <mark>interviews</mark>.
-      - layout: top-left
+          Led a team of 5 engineers and 4 QAs, concurrently serving as a Scrum Master.
+
+          Responsibilities encompassed <mark>coaching</mark> new team members, overseeing career development, conducting performance reviews and actively participating in recruitment and <mark>interviews</mark>.
+      - layout: left
         title: Derivco UK
         sub_title: Sofware Engineer
         caption: May 2013 - January 2015
         quote: >
           Ipswich (UK)
         description: |
-          - Focused on Front-end development, dedicated to creating exceptional <mark>user interfaces</mark> with a commitment to achieving <mark>pixel-perfect</mark> precision.
+          Focused on Front-end development, dedicated to creating exceptional <mark>user interfaces</mark> with a commitment to achieving <mark>pixel-perfect</mark> precision.
 
   - title: Projects
     sub_title: HOla
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: Escapeitor & TuPistaLibre
-        sub_title: 2017 / 2015
+        caption: 2017 / 2015
         description: |
           Teamed up with two university colleagues for both projects. Primarily focusing on the front-end components, including both the web application and admin UI using <mark>JS</mark> (Angular), <mark>HTML</mark> and <mark>CSS</mark>.
 
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: Computer Science Degree
-        sub_title: 2006 - 2012
+        caption: 2006 - 2012
         description: |
           University of Seville
 
