@@ -35,7 +35,7 @@ gtag: "G-JD1532W65J"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a passionate software engineer dedicated to crafting enchanting user experiences. With a focus on pixel perfection and user delight, I communicate fluently, collaborating seamlessly in the symphony of coding. A perpetual learner and tech explorer, constantly venturing into new horizons in technology.
+  I'm a passionate software engineer dedicated to crafting enchanting **user experiences**. With a focus on pixel perfection and user delight, I communicate fluently, collaborating seamlessly in the symphony of coding. A perpetual learner and tech explorer, constantly venturing into new horizons in technology.
 
 content:
   - title: Experience
@@ -48,9 +48,11 @@ content:
         quote: >
           remote - Germany
         description: | # this will include new lines to allow paragraphs
-          Led the design and execution of an audio recommendation system utilizing <mark>AWS Personalize</mark>.
+          Led the design and execution of an audio recommendation system utilizing <mark>AWS Personalize</mark>. The personalized recommended audio lists demonstrated superior performance compared to static lists throughout the application.
 
           Collaborated in the design and implementation of a system utilizing <mark>Strapi</mark> and <mark>Next.js</mark>, enabling brand team to independently craft dynamic marketing pages. This approach granted them the autonomy to construct pages with essential components without requiring developer assistance.
+
+          Played a key role in the post-migration phase of our API from Rails to Elixir, actively contributing to the rewriting of frontend <mark>React.js</mark> components. Utilized <mark>GraphQL</mark> with Apollo and <mark>Typescript</mark> to enhance system efficiency and maintain code integrity.
       - layout: left
         title: Derivco UK
         sub_title: Team Lead
@@ -71,7 +73,6 @@ content:
           Focused on Front-end development, dedicated to creating exceptional <mark>user interfaces</mark> with a commitment to achieving <mark>pixel-perfect</mark> precision.
 
   - title: Projects
-    sub_title: HOla
     layout: list
     content:
       - layout: left
@@ -85,9 +86,8 @@ content:
     content:
       - layout: left
         title: Computer Science Degree
+        sub_title: University of Seville
         caption: 2006 - 2012
-        description: |
-          University of Seville
 
   - title: A Little More About Me
     layout: text
