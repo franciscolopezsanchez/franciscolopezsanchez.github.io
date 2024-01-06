@@ -41,7 +41,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: top-let
         title: femtasy
         sub_title: Full-Stack Engineer
         caption: January 2020 - August 2023
@@ -49,8 +49,8 @@ content:
           remote - Germany
         description: | # this will include new lines to allow paragraphs
           - Led the design and execution of an audio recommendation system utilizing <mark>AWS Personalize</mark>.
-          - Collaborated in the design and implementation of a system utilizing <mark>Strapi</mark> and <mark>Next.js</mark>, enabling the brand team to independently craft dynamic marketing pages. This approach granted them the autonomy to construct pages with essential components without requiring developer assistance.
-      - layout: right
+          - Collaborated in the design and implementation of a system utilizing <mark>Strapi</mark> and <mark>Next.js</mark>, enabling brand team to independently craft dynamic marketing pages. This approach granted them the autonomy to construct pages with essential components without requiring developer assistance.
+      - layout: top-left
         title: Derivco UK
         sub_title: Team Lead
         caption: January 2015 - July 2019
@@ -59,36 +59,38 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Led a team of 5 engineers and 4 QAs, concurrently serving as a Scrum Master.
           - Responsibilities encompassed <mark>coaching</mark> new team members, overseeing career development, conducting performance reviews and actively participating in recruitment and <mark>interviews</mark>.
-      - layout: right
+      - layout: top-left
         title: Derivco UK
         sub_title: Sofware Engineer
         caption: May 2013 - January 2015
         quote: >
           Ipswich (UK)
         description: |
-          - Worked mainly as a Front-end developer, meticulously crafting amazing <mark>user interfaces</mark> with a commitment to achieving <mark>pixel-perfect</mark> precision.
+          - Focused on Front-end development, dedicated to creating exceptional <mark>user interfaces</mark> with a commitment to achieving <mark>pixel-perfect</mark> precision.
 
   - title: Projects
+    sub_title: HOla
     layout: list
     content:
       - layout: top-left
-        title: TuPistaLibre
+        title: Escapeitor & TuPistaLibre
+        sub_title: 2017 / 2015
         description: |
-          - Marketplace for padel clubs to book courts and for players to find matches.
-          -
+          Teamed up with two university colleagues for both projects. Primarily focusing on the front-end components, including both the web application and admin UI using <mark>JS</mark> (Angular), <mark>HTML</mark> and <mark>CSS</mark>.
+
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: Computer Science Degree
-        sub_title: University of Seville
-        caption: 2006 - 2012
+        sub_title: 2006 - 2012
+        description: |
+          University of Seville
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Passionate about exploring and mastering various sports, I consider myself a dedicated **sport-tester**. Currently focused on rock climbing, I actively seek new challenges. Beyond sports, I have a deep love for travel and mountain hikes. Having conquered a couple of volcanos in Central America and the 4k+ meters Toubkal mountain in Morocco, I find joy in pushing my physical limits. On weekends, you'll often find me on the road with my van, partner, and recently adopted dog, exploring Andalucian rocks in search of our next climbing adventure.
 
 # Footer
 footer_show_references: true
