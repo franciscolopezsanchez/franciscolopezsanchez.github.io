@@ -52,7 +52,7 @@ content:
 
           Collaborated in the design and implementation of a system utilizing <mark>Strapi</mark> and <mark>Next.js</mark>, enabling brand team to independently craft dynamic marketing pages. This approach granted them the autonomy to construct pages with essential components without requiring developer assistance.
 
-          Played a key role in the post-migration phase of our API from Rails to Elixir, actively contributing to the rewriting of frontend <mark>React.js</mark> components. Utilized <mark>GraphQL</mark> with Apollo and <mark>Typescript</mark> to enhance system efficiency and maintain code integrity.
+          Played a key role in the post-migration phase of our API from Rails to Elixir, actively contributing to the rewriting of frontend <mark>React.js</mark> components and in the <mark>React Native</mark> app. Utilized <mark>GraphQL</mark> with Apollo and <mark>Typescript</mark> to enhance system efficiency and maintain code integrity.
       - layout: left
         title: Derivco UK
         sub_title: Team Lead
